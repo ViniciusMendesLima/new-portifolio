@@ -1,0 +1,17 @@
+:root{
+    --color-bg: #C4CED4;
+
+    --color-white:#fff;
+    --color-1: rgb(184,126,88);
+    --color-2: rgb(46,73,66);
+    --color-3: rgb(23,37,33);
+    --color-4: rgb(223, 180, 137);
+    --color-5: rgb(65,65,65);
+
+
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+  
+  }
