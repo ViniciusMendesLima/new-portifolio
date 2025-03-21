@@ -2,18 +2,22 @@
 *{
   margin: 0;
   padding: 0;
+  border: none;
+  outline: none;
   box-sizing: border-box;
-  text-decoration: none;
   font-family: 'Jost', sans-serif; 
   
 }
 
-li, a{
-    text-decoration: none;
-    list-style: none;
-    color: #000;
+a{
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul{
+  list-style: none;
 }
 
 img{
-    width: 100%;
+  max-width: 100%;
 }
