@@ -1,11 +1,16 @@
 .projects{
     background-color: var(--color-6);
-    height: 27rem;
+    height: 35rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 3.875rem;
+    position: relative;
+    margin-top: 10rem;
     
+}
+
+.projects .container-projetos h2{
+    color: var(--color-white);
 }
 
 .projects .buttons {
@@ -24,10 +29,41 @@
     display: flex;
 }
 
+.projects .projeto a{
+    align-items: center;
+    gap: 30px;
+}
+
+.projects .projeto a:hover img {
+    opacity: 0.5;
+}
+
+.projects .projeto a:hover .informacoes-projeto {
+    color: var(--color-1);
+}
+
+.projects .projeto img{
+    height: 25rem;
+    max-width: 30rem;
+    min-height: 25rem;
+}
+
+.projects .projeto .informacoes-projeto{
+    color:var(--color-white);
+    max-width: 30rem;
+}
+
+.projects .projeto .informacoes-projeto h3{
+    font-size: var(--fonte-grande);
+}
+
+.projects .projeto .informacoes-projeto p{
+    font-size: var(--fonte-normal);
+}
+
 #back{
     position: absolute;
     left: 0;
-    align-items: center;
     cursor: pointer;
 }
 

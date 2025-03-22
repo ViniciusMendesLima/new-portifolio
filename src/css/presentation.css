@@ -7,6 +7,7 @@
     flex-direction: column;
     gap: 10px;
     padding-top: 5rem;
+    padding-bottom: 10rem;
 }
 
 .apresentação .nome-cargo h1{
@@ -19,10 +20,56 @@
     font-weight: 500;
 }
 
+.redes-sociais a, .texto-home .mail {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    background-color: var(--color-bg);
+    color: var(---color-6);
+
+  }
+
+  .redes-sociais a:hover {
+    color: var(--color-1);
+  }
+
+  .redes-sociais a i {
+    line-height: 40px;
+  }
+
+  .nome-cargo .mail{
+    border-radius: 10px;
+    width: 32rem;
+    margin-top: 1rem;
+    color: var(---color-6);
+    justify-content: center;
+    padding: 2px 0;
+  }
+
+  .nome-cargo .mail{
+    gap: 10px;
+  }
+
+  .nome-cargo .mail p{
+    font-size: 1.8rem;
+  }
+
+  .outer-shadow {
+    box-shadow:  3px 3px #222327, -3px -3px 3px #454545;
+  }
+
+  .inner-shadow {
+    box-shadow:  inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+  }
+
 .apresentação .fotos{
     width: 100vw;
     display: flex;
-    top: 30rem;
     height: 548px;
     justify-content: center;
     background-image: linear-gradient(to bottom, var(--color-bg) 0, var(--color-bg) 30%, var(--color-white) 30%);
