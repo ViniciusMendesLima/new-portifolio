@@ -1,0 +1,39 @@
+.skills{
+    flex-direction: column;
+    
+}
+.skills .container-habilidades{
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px ;
+}
+
+.skills .container-habilidades .habilidade {
+    max-width: 350px;
+    padding: 0 20px;
+}
+
+.skills .container-habilidades .habilidade p,
+.skills .container-habilidades .habilidade h3,
+.skills .container-habilidades .habilidade .logo i{
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.skills .container-habilidades .habilidade h3{
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.skills .container-habilidades .habilidade p{
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.skills .container-habilidades .habilidade i{
+    font-size: 8rem;
+}

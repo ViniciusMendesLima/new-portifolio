@@ -3,10 +3,11 @@
 
     --color-white:#fff;
     --color-1: rgb(184,126,88);
-    --color-2: rgb(46,73,66);
+    --color-2: rgba(46,73,66, .9);
     --color-3: rgb(23,37,33);
     --color-4: rgb(223, 180, 137);
     --color-5: rgb(65,65,65);
+    --color-6: rgb(46,73,66);
 
 
     --fonte-gigante: 4.5rem;
@@ -14,6 +15,6 @@
     --fonte-grande: 2.4rem;
     --fonte-normal: 1.6rem;
 
-    --mobile-padding:30px;
+    --mobile-padding: 30px;
   }
 

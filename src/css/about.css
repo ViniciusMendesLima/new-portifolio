@@ -1,0 +1,16 @@
+.about{
+    flex-direction: column;
+}
+
+.about .description{
+    flex-direction: column;
+    max-width: 70%;
+    line-height: 1.7em;
+    gap: 10px;
+}
+
+
+.about .description p{
+    font-size: var(--fonte-normal);
+    text-align: center;
+}

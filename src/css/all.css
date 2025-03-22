@@ -6,6 +6,7 @@ html {
   color: var(--cor-branca);
   font-weight: 300;
   scroll-behavior: smooth;
+  color: var(--color-6);
  
 }
 
@@ -13,9 +14,12 @@ body{
   font-family: "Jost", sans-serif;
   font-size: var(--fonte-normal);
   overflow-x: hidden;
-
 }
 
+section h2{
+  font-size: var(--fonte-extra-grande);
+  margin-bottom: 20px;
+}
 
 .row{
   display: flex;
@@ -29,4 +33,9 @@ body{
 /* checar se esta sendo usado */
 .alinhar-itens-no-centro{
   align-items: center;
+}
+
+
+.margin-top{
+  padding-top: 10rem;
 }
